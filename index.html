@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio-webside</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="left">Biraja's-Portfolio</div>
+        <div class="right">
+          <ul>
+            <li><a href="/">About</a></li>
+            <li><a href="/">Home</a></li>
+            <li><a href="/">Services</a></li>
+            <li><a href="/">Projects</a></li>
+            <li><a href="/">Contact me</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="first-section">
+        <div class="left-section">
+          <h1>Hi, I'm Biraja</h1>
+          <div>
+            <p>
+              I'm a freelance web developer with a passion for creating engaging
+              and visually appealing websites.
+            </p>
+            <span id="element"></span>
+            <button>Get in touch</button>
+          </div>
+        </div>
+        <div class="right-section">
+          <img src="bg.jpg" alt="" />
+        </div>
+      </section>
+      <hr>
+      <section class="second-section">
+        <span class="line">What i have done so far</span>
+        <h1>Work Experience</h1>
+        <div class="service"></div>
+      </section>
+    </main>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+      var Typed = new Typed("#element", {
+        strings: ["Web Developer", "Web designer", "Frontend Developer"],
+        typeSpeed: 50,
+      });
+    </script>
+  </body>
+</html>
